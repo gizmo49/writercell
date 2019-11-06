@@ -1,11 +1,16 @@
-import React from 'react';
+import React, {Component} from 'react';
+import "./assets/css/main.css";
+import "./assets/css/fonts.css";
 
-function App() {
-  return (
-    <div>
-      <p> the app </p>
-    </div>
-  );
+class App extends Component {
+  
+  render = () => {
+    return (
+      <div>
+        <p> the app </p>
+      </div>
+    );
+  }
 }
 
 export default App;
