@@ -10,10 +10,9 @@ export default class Login extends Component {
                 <div className="login--view">
                     <div className="row h-100 w-100">
                         <div className="col-lg-6">
-                            <div className=""></div>
+                            <div className="hold--image"></div>
                         </div>
                         <div className="col-lg-6">
-                            <h6>login</h6>
                             <LoginForm />
                         </div>
                     </div>

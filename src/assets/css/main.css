@@ -1,4 +1,62 @@
+:root{
+    /* Primary Colors */
+    --main-fill-normal:#2779E2;
+    --grey-two: #5B6582;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
 body {
     font-family: "Graphik";
     background: #ffffff;
+}
+
+#wittercell{
+    height: 100%;
+}
+
+/* General inputs, labels and buttons */
+
+.form--primary label {
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    color: var(--grey-two);
+}
+
+.form-control.input--primary {
+    color: #C3C7D1;
+    font-size: 14px;
+
+    width: 100%;
+    border: 1px solid #E8E9EA;
+    border-radius: 5px;
+
+    outline: none;
+    box-shadow: none;
+}
+
+.form-control.input--primary:focus {
+    border-color:#084B8A;
+}
+
+.btn.btn--primary {
+    width: 100%;
+    color: #ffffff;
+    background: var(--main-fill-normal);
+}
+
+.flag--head h2{
+    font-weight: bolder;
+    font-size: 24px;
+    letter-spacing: 0.25px;
+    color: #31424F;
+}
+
+.flag--head p{
+    font-size: 14px;
+    color:#5B6582;
+    letter-spacing:0.25px; 
 }
