@@ -1,14 +1,26 @@
-import React from "react";
+import React, {Component} from "react";
 import { Redirect } from "react-router-dom";
 import TabSystem from "../TabSystem/TabSystem";
 
 const DashboardHome = () => (<div>dashboard home</div>);
 const DashboardTranscations = () => (<div>dashboard transcations</div>);
 
-const SuperVend = () => (<h6>super vend</h6>);
-const OutwardVend = () => (<h6> vend outwards </h6>);
 const VendWallet = () => (<div className="text-center">Vend wallet system</div>)
-const Settings = () => (<div className="text-center">Settings</div>)
+// const Settings = () => (<div className="text-center">Settings</div>)
+const FolderPath = () => (<div>folder path</div>);
+const Notifications = () => (<div>Notification</div>);
+
+
+class GridSoftware extends Component {
+    render = () => {
+        return (
+            <ul>
+                <li>You</li>
+                <li>Plus Me</li>
+            </ul>
+        )
+    }
+}
 
 export default [
     {
@@ -37,30 +49,13 @@ export default [
         ]
     },
     {
-        iconName: "lend",
+        iconName: "grid",
         title: "Vend",
         path: '/vend',
-        component: TabSystem,
-        routes: [
-            {
-                path: '/vend',
-                exact: true,
-                component: () => <Redirect replace to="/vend/supervend" />
-            },
-            {
-                path: '/vend/supervend',
-                component: SuperVend,
-                tab: 'Super Vend'
-            },
-            {
-                path: '/vend/outwardvend',
-                component: OutwardVend,
-                tab: 'Outward Vend'
-            }
-        ]
+        component: GridSoftware,
     },
     {
-        iconName: "wallet",
+        iconName: "people",
         title: "Vend",
         path: '/wallet',  
         component: TabSystem,
@@ -78,27 +73,16 @@ export default [
         ]
     },
     {
-        iconName: "bolt",
+        iconName: "folder",
         title: "Settings",
         path: '/settings',  
-        component: TabSystem,
-        routes: [
-            {
-                path: '/settings',
-                exact: true,
-                component: () => <Redirect replace to="/settings/personal" />
-            },
-            {
-                path: '/settings/personal',
-                component: Settings,
-                tab: 'personal information'
-            },
-            {
-                path: '/settings/password',
-                component: Settings,
-                tab: 'password'
-            }
-        ]
+        component: FolderPath,
+    },
+    {
+        iconName: "bell",
+        title: "Notifications",
+        path: "/notification",
+        component: Notifications
     }
 
 ];

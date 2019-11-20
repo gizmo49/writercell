@@ -1,6 +1,6 @@
 .wittericon {
     display: inline-block;
-    background-color: #ffffff;
+    background-color: #859097;
     width: 20px;
     height: 20px;
     transition: all 0.5s;
@@ -9,4 +9,39 @@
 .wittericon.person {
     -webkit-mask: url(./files/person.svg) no-repeat center;
     mask: url(./files/person.svg) no-repeat center;
+}
+
+.wittericon.people {
+    -webkit-mask: url(./files/people.svg) no-repeat center;
+    mask: url(./files/people.svg) no-repeat center;
+}
+
+.wittericon.grid {
+    -webkit-mask: url(./files/grid.svg) no-repeat center;
+    mask: url(./files/grid.svg) no-repeat center;
+}
+
+.wittericon.folder {
+    -webkit-mask: url(./files/folder.svg) no-repeat center;
+    mask: url(./files/folder.svg) no-repeat center;
+}
+
+.wittericon.bell {
+    -webkit-mask: url(./files/bell.svg) no-repeat center;
+    mask: url(./files/bell.svg) no-repeat center;
+}
+
+.wittericon.search {
+    -webkit-mask: url(./files/search.svg) no-repeat center;
+    mask: url(./files/search.svg) no-repeat center;
+}
+
+.wittericon.question-mark {
+    -webkit-mask: url(./files/question-mark.svg) no-repeat center;
+    mask: url(./files/question-mark.svg) no-repeat center;
+}
+
+.wittericon.logout {
+    -webkit-mask: url(./files/logout.svg) no-repeat center;
+    mask: url(./files/logout.svg) no-repeat center;
 }
