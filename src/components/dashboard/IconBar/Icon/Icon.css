@@ -1,0 +1,12 @@
+.wittericon {
+    display: inline-block;
+    background-color: #ffffff;
+    width: 20px;
+    height: 20px;
+    transition: all 0.5s;
+}
+
+.wittericon.person {
+    -webkit-mask: url(./files/person.svg) no-repeat center;
+    mask: url(./files/person.svg) no-repeat center;
+}

@@ -12,7 +12,7 @@ const Settings = () => (<div className="text-center">Settings</div>)
 
 export default [
     {
-        iconName: "block",
+        iconName: "person",
         title: "Dashboard",
         path: '/dashboard',
         component: TabSystem,

@@ -1,6 +1,7 @@
 import React from 'react';
 import { renderRoutes } from 'react-router-config';
 import { NavTab } from 'react-router-tabs';
+import "./TabSystem.css";
 // import { Icon } from '../icons';
 
 export default ({ routes }) => (
