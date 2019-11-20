@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
 import { Router, Route, Switch } from 'react-router-dom';
 import { createBrowserHistory } from "history";
+import Login from './components/pages/Login/Login';
+import Dashbase from './components/dashboard/Dashbase/Dashbase';
 import "./assets/css/main.css";
 import "./assets/css/fonts.css";
-import Login from './components/pages/Login/Login';
 
 const hist = createBrowserHistory();
 
@@ -18,6 +19,7 @@ export default class App extends Component {
           <Switch>
             <Route exact path="/" component={Login} />
             <Route exact path="/login" component={Login} />
+            <Route component={Dashbase} />
             <Route exact path="*" render={() => <NotFound />} />
           </Switch>
         </Router>

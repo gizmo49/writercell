@@ -35,6 +35,7 @@ body {
 .form-control.input--primary {
     color: #C3C7D1;
     font-size: 14px;
+    letter-spacing: 0.25px;
     padding-top: 20px;
     padding-bottom: 20px;
     width: 100%;
