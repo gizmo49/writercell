@@ -1,0 +1,12 @@
+.flag--head h2{
+    font-weight: bolder;
+    font-size: 24px;
+    letter-spacing: 0.25px;
+    color: #31424F;
+}
+
+.flag--head p{
+    font-size: 14px;
+    color:#5B6582;
+    letter-spacing:0.25px; 
+}

@@ -1,13 +1,11 @@
 import React from "react";
+import FlagHead from "../../../utils/FlagHead/FlagHead";
 
 const LoginForm = () => (
     <>
-        <div className="row justify-content-center">
+        <div className="row justify-content-center h-100 align-items-center">
             <div className="col-xl-8">
-                <div className="flag--head mb-5">
-                    <h2>Create your Account</h2>
-                    <p>Enter your name and work email address to proceed</p>
-                </div>
+                <FlagHead title="Create your Account" summary="Enter your name and work email address to proceed" />
                 <form className="form--primary">
                     <div className="form-group">
                         <label>Full Name</label>
@@ -21,7 +19,9 @@ const LoginForm = () => (
                             className="form-control input--primary"
                             placeholder="jonsnow@games.com" />
                     </div>
-                    <button className="btn btn--primary">continue</button>
+                    <div className="mt-3">
+                        <button className="btn btn--primary">Continue</button>
+                    </div>
                 </form>
             </div>
         </div>

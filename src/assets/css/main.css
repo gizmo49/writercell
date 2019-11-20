@@ -18,10 +18,16 @@ body {
     height: 100%;
 }
 
+/* Form Group */
+.form--primary div.form-group {
+    margin-bottom: 20px;
+}
+
 /* General inputs, labels and buttons */
 
 .form--primary label {
     font-size: 14px;
+    font-weight: bolder;
     letter-spacing: 0.25px;
     color: var(--grey-two);
 }
@@ -29,11 +35,11 @@ body {
 .form-control.input--primary {
     color: #C3C7D1;
     font-size: 14px;
-
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 100%;
     border: 1px solid #E8E9EA;
     border-radius: 5px;
-
     outline: none;
     box-shadow: none;
 }
@@ -43,20 +49,12 @@ body {
 }
 
 .btn.btn--primary {
-    width: 100%;
     color: #ffffff;
-    background: var(--main-fill-normal);
-}
-
-.flag--head h2{
-    font-weight: bolder;
-    font-size: 24px;
-    letter-spacing: 0.25px;
-    color: #31424F;
-}
-
-.flag--head p{
     font-size: 14px;
-    color:#5B6582;
-    letter-spacing:0.25px; 
+    font-weight: bolder;
+    letter-spacing: 0.25px;
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: var(--main-fill-normal);
 }
