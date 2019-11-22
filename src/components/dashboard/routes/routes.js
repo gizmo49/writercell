@@ -10,6 +10,9 @@ const VendWallet = () => (<div className="text-center">Vend wallet system</div>)
 const FolderPath = () => (<div>folder path</div>);
 const Notifications = () => (<div>Notification</div>);
 
+const DashboardRequests = () => (<div>load</div>);
+const DashboardCheckins = () => (<div>check ins</div>);
+const DashboardProfile = () => (<div>my profile</div>)
 
 class GridSoftware extends Component {
     render = () => {
@@ -37,14 +40,32 @@ export default [
             {
                 path: '/dashboard/home',
                 component: DashboardHome,
-                tab: 'Dashboard',
-                tabIcon: 'block'
+                tab: 'task',
+                tabIcon: 'checkmark'
             },
             {
                 path: '/dashboard/transcations',
                 component: DashboardTranscations,
-                tab: 'Transcations',
-                tabIcon: 'card'
+                tab: 'schedule',
+                tabIcon: 'calender'
+            },
+            {
+                path: "/dashboard/requests",
+                component: DashboardRequests,
+                tab: 'requests',
+                tabIcon: 'message'
+            },
+            {
+                path: "/dashboard/check-ins",
+                component: DashboardCheckins,
+                tab: 'check-ins',
+                tabIcon: 'clipboard'
+            },
+            {
+                path: "/dashboard/profile",
+                component: DashboardProfile,
+                tab: 'profile',
+                tabIcon: 'person'
             }
         ]
     },

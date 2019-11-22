@@ -1,3 +1,14 @@
 ul.tabs-ul{
     padding-left: 50px;
 }
+
+ul.tabs-ul li a.nav-tab {
+    color: #5B6582;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    text-transform: capitalize;
+}
+
+ul.tabs-ul li a.nav-tab i.wittericon {
+    background-color: #5B6582;
+}

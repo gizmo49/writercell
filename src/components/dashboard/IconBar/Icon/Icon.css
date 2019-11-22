@@ -45,3 +45,23 @@
     -webkit-mask: url(./files/logout.svg) no-repeat center;
     mask: url(./files/logout.svg) no-repeat center;
 }
+
+.wittericon.checkmark {
+    -webkit-mask: url(./files/checkmark.svg) no-repeat center;
+    mask: url(./files/checkmark.svg) no-repeat center;
+}
+
+.wittericon.calender {
+    -webkit-mask: url(./files/calender.svg) no-repeat center;
+    mask: url(./files/calender.svg) no-repeat center;
+}
+
+.wittericon.message {
+    -webkit-mask: url(./files/message.svg) no-repeat center;
+    mask: url(./files/message.svg) no-repeat center;
+}
+
+.wittericon.clipboard {
+    -webkit-mask: url(./files/clipboard.svg) no-repeat center;
+    mask: url(./files/clipboard.svg) no-repeat center;
+}
