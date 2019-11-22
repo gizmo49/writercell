@@ -2,13 +2,27 @@ ul.tabs-ul{
     padding-left: 50px;
 }
 
+ul.tabs-ul li{
+    margin-bottom: 30px;
+}
+
 ul.tabs-ul li a.nav-tab {
-    color: #5B6582;
-    font-size: 14px;
-    letter-spacing: 0.25px;
-    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
 }
 
 ul.tabs-ul li a.nav-tab i.wittericon {
     background-color: #5B6582;
+    margin-right: 15px;
+    transform: scale(1.05);
+}
+
+ul.tabs-ul li a.nav-tab span.link-text {
+    color: #5B6582;
+    font-size: 14.8px;
+    font-weight: 600;
+    line-height: 13px;
+    letter-spacing: 0.25px;
+    text-transform: capitalize;
 }

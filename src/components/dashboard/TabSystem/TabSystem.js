@@ -13,7 +13,7 @@ export default ({ routes }) => (
             <li key={`tab_${i}`} >
               <NavTab to={path}>
                 <Icon name={tabIcon} />
-                <span>{tab}</span>
+                <span className="link-text">{tab}</span>
               </NavTab>
             </li>
           ))}

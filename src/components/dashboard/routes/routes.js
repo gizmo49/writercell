@@ -44,6 +44,12 @@ export default [
                 tabIcon: 'checkmark'
             },
             {
+                path: "/dashboard/profile",
+                component: DashboardProfile,
+                tab: 'profile',
+                tabIcon: 'person'
+            },
+            {
                 path: '/dashboard/transcations',
                 component: DashboardTranscations,
                 tab: 'schedule',
@@ -61,12 +67,6 @@ export default [
                 tab: 'check-ins',
                 tabIcon: 'clipboard'
             },
-            {
-                path: "/dashboard/profile",
-                component: DashboardProfile,
-                tab: 'profile',
-                tabIcon: 'person'
-            }
         ]
     },
     {
